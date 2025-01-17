@@ -1,4 +1,4 @@
 # escape-the-dungeon
 
-controles:
+controles:   
 -flèche directionelles -> déplacements
