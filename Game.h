@@ -7,12 +7,12 @@
 
 class Game {
 public:
-    Game(sf::RenderWindow& win) : window(win) {}
+    Game(RenderWindow& win) : window(win) {}
     void gameLoop();
     void gameInput();
     void gameDraw();
 
-    sf::RenderWindow& window;
+    RenderWindow& window;
     Manager manager;
 };
 

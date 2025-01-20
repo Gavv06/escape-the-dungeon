@@ -26,10 +26,27 @@ void Player::handleinput() {
     playerShape.setPosition(static_cast<float>(posX), static_cast<float>(posY));
 
 }
+
+
+//void Player::checkCollisionWithChaser(const Chaser& chaser, RenderWindow* window) {
+//   
+//    if (playerShape.getGlobalBounds().intersects(chaser.chaserShape.getGlobalBounds())) {
+//        std::cout << "Collision détectée avec un chaser!" << std::endl;
+//        if (window) {
+//            window->close();  
+//        }
+//    }
+//}
+
 void Player::update(float deltaTime) {
     cout << "A";
 }
+
 void Player::draw(RenderWindow& window) {
     window.draw(playerShape);
 }
+sf::Vector2f Player::getPosition() const {
+    return sf::Vector2f(static_cast<float>(posX), static_cast<float>(posY));
+}
+
 
