@@ -24,6 +24,14 @@ void Game::gameDraw() {
         patrol->draw(window);
     }
 
+    for (Potion* potion : manager.allPotions) { 
+        potion->draw(window);
+    }
+
+    for (Key* key : manager.allKeys) {
+        key->draw(window);
+    }
+
     window.display();
 }
 
@@ -31,6 +39,8 @@ void Game::gameLoop() {
     manager.createPlayer();
     manager.createChaser();
     manager.createPatrol();
+    manager.createPotion();
+    manager.createKey();
 
     while (window.isOpen()) {
         gameInput();
@@ -42,7 +52,6 @@ void Game::gameLoop() {
                 if (chaser->checkCollisionWithChaser(*player)) {
                     std::cout << "Collision détectée entre Chaser et Player !" << std::endl;
                     window.close();
-                    
                 }
             }
         }
@@ -58,7 +67,36 @@ void Game::gameLoop() {
             }
         }
 
+        for (Potion* potion : manager.allPotions) {
+            for (Player* player : manager.allPlayers) {
+                potion->interact(*player); 
+
+                
+                if (potion->isUsed()) {
+                    cout << "Potion utilisée par le joueur !" << std::endl;
+                    manager.allPotions.erase(remove(manager.allPotions.begin(), manager.allPotions.end(), potion), manager.allPotions.end());
+                    break;
+                }
+            }
+        }
+
+        for (Key* key : manager.allKeys) {
+            for (Player* player : manager.allPlayers) {
+                key->interact(*player);
+
+
+                if (key->isUsed()) {
+                    cout << "nouvelle clé !" << std::endl;
+                    manager.allKeys.erase(remove(manager.allKeys.begin(), manager.allKeys.end(), key), manager.allKeys.end());
+                    break;
+                }
+            }
+        }
+
+        for (Player* player : manager.allPlayers) {
+            player->update(0.016f); 
+        }
+
         gameDraw();
     }
 }
-

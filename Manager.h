@@ -2,6 +2,10 @@
 #include "Player.h"
 #include "Chaser.h"
 #include "Patrol.h"
+#include "Potion.h"
+#include "Key.h"
+#include <random> 
+#include <chrono>
 
 
 
@@ -15,5 +19,13 @@ public:
 
 	vector<Patrol*> allPatrols;
 	Patrol* createPatrol();
+
+	vector<Potion*> allPotions;
+	Potion* createPotion();
+
+	vector<Key*> allKeys;
+	Key* createKey();
+
+	float initializeRandomGenerator(int nb1, int nb2);
 };
 

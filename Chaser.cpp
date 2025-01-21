@@ -26,13 +26,13 @@ void Chaser::hunt(const Player& player) {
     }
 }
 
-sf::Vector2f Chaser::getPosition() const {
+Vector2f Chaser::getPosition() const {
     return chaserShape.getPosition();
 }
 
 bool Chaser::checkCollisionWithChaser(const Player& player) {
-    sf::Vector2f chaserPos = getPosition(); 
-    sf::Vector2f playerPos = player.getPosition();
+    Vector2f chaserPos = getPosition(); 
+    Vector2f playerPos = player.getPosition();
 
     float distance = std::sqrt(std::pow(chaserPos.x - playerPos.x, 2) + std::pow(chaserPos.y - playerPos.y, 2));
     float collisionThreshold = 25.f; 

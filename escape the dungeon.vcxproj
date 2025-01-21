@@ -148,18 +148,26 @@ sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="escape the dungeon.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Interactable.cpp" />
+    <ClCompile Include="Key.cpp" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Objets.cpp" />
     <ClCompile Include="Patrol.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Potion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chaser.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Interactable.h" />
+    <ClInclude Include="Key.h" />
     <ClInclude Include="Manager.h" />
+    <ClInclude Include="Objets.h" />
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Potion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
