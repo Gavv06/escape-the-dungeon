@@ -4,6 +4,7 @@
 #include "Patrol.h"
 #include "Potion.h"
 #include "Key.h"
+#include "Map.h"
 #include <random> 
 #include <chrono>
 
@@ -25,6 +26,9 @@ public:
 
 	vector<Key*> allKeys;
 	Key* createKey();
+
+	vector<Map*> allMaps;
+	Map* createMap();
 
 	float initializeRandomGenerator(int nb1, int nb2);
 

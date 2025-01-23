@@ -14,6 +14,8 @@ void Game::gameInput() {
 void Game::gameDraw() {
     window.clear();
 
+    manager.allMaps[0]->draw(window);
+
     manager.allPlayers[0]->draw(window);
 
     for (Chaser* chaser : manager.allChasers) {
@@ -36,12 +38,12 @@ void Game::gameDraw() {
 }
 
 void Game::gameLoop() {
+    manager.createMap();
     manager.createPlayer();
     manager.createChaser();
     manager.createPatrol();
     manager.setSeed(static_cast<unsigned int>(time(0)));
     manager.createPotion();
-    manager.setSeed(static_cast<unsigned int>(time(0)));
     manager.createKey();
 
     while (window.isOpen()) {

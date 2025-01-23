@@ -34,16 +34,16 @@ Potion* Manager::createPotion() {
     int y;
     int marginX = 50;
     int marginY = 50;
-    int countx = 2;
+    int countx = 5;
     for (int i = 0; i < countx; ++i) {
-        x = initializeRandomGenerator(marginX, 960 - marginX);
+        x = initializeRandomGenerator(marginX, 1280 - marginX);
         cout << "Random Value " << (i + 1) << ": " << x << endl;
         
         
     }
-    int county = 2;
+    int county = 5;
     for (int i = 0; i < county; ++i) {
-        y = initializeRandomGenerator(marginY, 1280-marginY);
+        y = initializeRandomGenerator(marginY, 960-marginY);
         cout << "Random Value " << (i + 1) << ": " << y << endl;
     }
 
@@ -55,12 +55,19 @@ Potion* Manager::createPotion() {
 Key* Manager::createKey() {
     int marginX = 50;
     int marginY = 50;
-    int x = initializeRandomGenerator(marginX, 960 - marginX);
+    int x = initializeRandomGenerator(marginX, 1280 - marginX);
     cout << x << endl;
-    int y = initializeRandomGenerator(marginY, 1280 - marginY);
+    int y = initializeRandomGenerator(marginY, 960 - marginY);
     cout << y << endl;
 
    Key* obj = new Key(x, y, 0);
     allKeys.push_back(obj);
     return obj;
 }
+
+Map* Manager::createMap() {
+    Map* obj = new Map();
+    allMaps.push_back(obj);
+    return obj;
+}
+
