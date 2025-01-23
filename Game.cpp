@@ -39,7 +39,9 @@ void Game::gameLoop() {
     manager.createPlayer();
     manager.createChaser();
     manager.createPatrol();
+    manager.setSeed(static_cast<unsigned int>(time(0)));
     manager.createPotion();
+    manager.setSeed(static_cast<unsigned int>(time(0)));
     manager.createKey();
 
     while (window.isOpen()) {

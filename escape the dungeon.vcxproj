@@ -151,6 +151,7 @@ sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="Interactable.cpp" />
     <ClCompile Include="Key.cpp" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Objets.cpp" />
     <ClCompile Include="Patrol.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -164,6 +165,7 @@ sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClInclude Include="Interactable.h" />
     <ClInclude Include="Key.h" />
     <ClInclude Include="Manager.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Objets.h" />
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Player.h" />

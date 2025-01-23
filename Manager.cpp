@@ -1,5 +1,9 @@
 #include "Manager.h"
 
+void Manager::setSeed(unsigned int seed) {
+    srand(seed);
+}
+
 float Manager::initializeRandomGenerator(int nb1, int nb2) {
     return floor(nb1 + ((rand() / (float)RAND_MAX) * nb2));
 }
@@ -26,8 +30,22 @@ Patrol* Manager::createPatrol() {
 }
 
 Potion* Manager::createPotion() {
-    int x = initializeRandomGenerator(0, 960);
-    int y = initializeRandomGenerator(0, 1280);;
+    int x;
+    int y;
+    int marginX = 50;
+    int marginY = 50;
+    int countx = 2;
+    for (int i = 0; i < countx; ++i) {
+        x = initializeRandomGenerator(marginX, 960 - marginX);
+        cout << "Random Value " << (i + 1) << ": " << x << endl;
+        
+        
+    }
+    int county = 2;
+    for (int i = 0; i < county; ++i) {
+        y = initializeRandomGenerator(marginY, 1280-marginY);
+        cout << "Random Value " << (i + 1) << ": " << y << endl;
+    }
 
     Potion* obj = new Potion(x, y);
     allPotions.push_back(obj);
@@ -35,10 +53,14 @@ Potion* Manager::createPotion() {
 }
 
 Key* Manager::createKey() {
-    int x = initializeRandomGenerator(0, 960);
-    int y = initializeRandomGenerator(0, 1280);;
+    int marginX = 50;
+    int marginY = 50;
+    int x = initializeRandomGenerator(marginX, 960 - marginX);
+    cout << x << endl;
+    int y = initializeRandomGenerator(marginY, 1280 - marginY);
+    cout << y << endl;
 
-    Key* obj = new Key(x, y, 0);
+   Key* obj = new Key(x, y, 0);
     allKeys.push_back(obj);
     return obj;
 }

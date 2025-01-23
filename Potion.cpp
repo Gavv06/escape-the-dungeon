@@ -18,7 +18,7 @@ void Potion::usepotion(Player& player) {
         std::cout << "Potion utilisée ! Vitesse augmentée temporairement." << std::endl;
 
         float originalSpeed = player.getSpeed();
-        player.setSpeed(originalSpeed * 1.5f);
+        player.setSpeed(originalSpeed * 3.0f);
 
         boostEndTime = std::chrono::high_resolution_clock::now() + std::chrono::seconds(5);
 

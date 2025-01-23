@@ -1,7 +1,8 @@
-﻿  Potion.cpp
+﻿  Map.cpp
+  Potion.cpp
   Génération de code en cours
-  10 of 467 functions ( 2.1%) were compiled, the rest were copied from previous compilation.
+  2 of 469 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code
   escape the dungeon.vcxproj -> C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\x64\Release\escape the dungeon.exe

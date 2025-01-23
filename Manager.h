@@ -27,5 +27,7 @@ public:
 	Key* createKey();
 
 	float initializeRandomGenerator(int nb1, int nb2);
+
+	void setSeed(unsigned int seed);
 };
 
