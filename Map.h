@@ -11,15 +11,15 @@
 using namespace std;
 using namespace sf;
 
-class Map{
+class Map{  //: public Walls, public Floor, public Door {
 public:
 	ifstream mapfile;
 	Texture wall_t;
 	Texture floor_t;
 	Texture door_t;
 	vector<RectangleShape*> walls;
-	vector<RectangleShape*> floor;
-	vector<RectangleShape*> door;
+	vector<RectangleShape*> floors;
+	vector<RectangleShape*> doors;
 
 	Map();
 	void draw(RenderWindow& window);

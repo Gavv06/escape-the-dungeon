@@ -17,6 +17,7 @@ private:
 public:
     int posX, posY;
     RectangleShape potionShape;
+    Texture potion_t;
 
     Potion(int startX, int startY);
 

@@ -1,10 +1,15 @@
 #include "Key.h"
 
-Key::Key(int startX, int startY, int keynumber)
-    : posX(startX), posY(startY), knum(keynumber) {
-    keyShape.setSize(Vector2f(15.f, 15.f));
+Key::Key(int startX, int startY, bool poss)
+    : posX(startX), posY(startY), possessed(poss) {
+    keyShape.setSize(Vector2f(20.f, 20.f));
     keyShape.setFillColor(Color::Yellow);
     keyShape.setPosition(static_cast<float>(posX), static_cast<float>(posY));
+
+    if (!key_t.loadFromFile("(Assets/Item/Key.png")) {
+        return;
+    }
+    keyShape.setTexture(&key_t);
 }
 
 void Key::update(float deltaTime) {
@@ -25,9 +30,8 @@ void Key::interact(Player& player) {
 
     if (potionBounds.intersects(playerBounds)) {
 
-        std::cout << "une clé a ete trouvé!" << std::endl;
-        keynumber = keynumber + 1;
-        cout << "vous avez: " << keynumber << "cle" << endl;
+        std::cout << "la clé a ete trouvé!" << std::endl;
+        possessed = true;
         used = true;
         
     }

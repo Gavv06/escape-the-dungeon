@@ -12,6 +12,7 @@ public:
 
 	Door(int x, int y, int sx, int sy);
 	void draw(RenderWindow& window) override;
+	void opendoor();
 };
 
 

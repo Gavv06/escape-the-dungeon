@@ -4,9 +4,14 @@
 
 Potion::Potion(int startX, int startY)
     : posX(startX), posY(startY) {
-    potionShape.setSize(Vector2f(15.f, 15.f));
+    potionShape.setSize(Vector2f(20.f, 20.f));
     potionShape.setFillColor(Color::Green);
     potionShape.setPosition(static_cast<float>(posX), static_cast<float>(posY));
+
+    if (!potion_t.loadFromFile("(Assets/Item/Potion.png")){
+        return;
+    }
+    potionShape.setTexture(&potion_t);
 }
 
 bool Potion::isUsed() const {

@@ -60,7 +60,7 @@ Key* Manager::createKey() {
     int y = initializeRandomGenerator(marginY, 960 - marginY);
     cout << y << endl;
 
-   Key* obj = new Key(x, y, 0);
+   Key* obj = new Key(x, y, false);
     allKeys.push_back(obj);
     return obj;
 }

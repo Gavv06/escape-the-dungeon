@@ -4,21 +4,26 @@ Map::Map() {
 	mapfile.open("Assets/Map/Map1.txt");
 	string line;
 	int y = 0;
-
 	while (getline(mapfile, line)) {
 		for (int i = 0; i < line.size(); i++) {
 			if (line[i] == '#') {
-				walls.push_back(new RectangleShape(Vector2f(10, 10)));
+				RectangleShape* wall = new RectangleShape(Vector2f(30, 30));
+				wall->setPosition(i * 30, y * 30);
+				walls.push_back(wall);
 			}
 
 			else if (line[i] == '-') {
-				door.push_back(new RectangleShape(Vector2f(10, 10)));
+				RectangleShape* door = new RectangleShape(Vector2f(30, 30));
+				door->setPosition(i * 50, y * 50); 
+				doors.push_back(door);
 			}
 
 			else {
-				floor.push_back(new RectangleShape(Vector2f(10, 10)));
+				RectangleShape* floorTile = new RectangleShape(Vector2f(30, 30));
+				floorTile->setPosition(i * 30, y * 30); 
+				floors.push_back(floorTile);
 			}
-		    
+
 		}
 		y++;
 		cout << endl;;
@@ -28,12 +33,12 @@ Map::Map() {
 
 void Map::draw(RenderWindow& window) {
 	for (auto& wall : walls) {
-		wall->draw(window);
+		window.draw(*wall);
 	}
-	for (auto& floor : floor) {
-		floor->draw(window);
+	for (auto& floor : floors) {
+		window.draw(*floor);
 	}
-	for (auto& door : door) {
-		door->draw(window);
+	for (auto& door : doors) {
+		window.draw(*door);
 	}
 }
