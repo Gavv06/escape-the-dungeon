@@ -37,10 +37,6 @@ void Patrol::search() {
     patrolShape.move(direction * speed);
 }
 
-void Patrol::update(float deltaTime) {
-    std::cout << "is searching..." << std::endl;
-}
-
 void Patrol::draw(RenderWindow& window) {
     window.draw(patrolShape);
 }
@@ -58,5 +54,44 @@ bool Patrol::checkCollisionWithPatrol(const Player& player) {
     float collisionThreshold = 25.f;
 
     return distance < collisionThreshold;
+}
+
+FloatRect Patrol::getGlobalBounds() const {
+    return patrolShape.getGlobalBounds();
+}
+
+bool Patrol::checkCollision(const Walls& wall) const {
+    return getGlobalBounds().intersects(wall.wall_rect.getGlobalBounds());
+}
+
+bool Patrol::checkCollision(const Door& door) const {
+    return getGlobalBounds().intersects(door.door_rect.getGlobalBounds());
+}
+
+bool Patrol::checkCollisionWithWalls(const std::vector<Walls>& walls) const {
+    for (const Walls& wall : walls) {
+        if (checkCollision(wall)) {
+            return true; 
+        }
+    }
+    return false; 
+}
+
+bool Patrol::checkCollisionWithDoors(const std::vector<Door>& doors) const {
+    for (const Door& door : doors) {
+        if (checkCollision(door)) {
+            return true; 
+        }
+    }
+    return false; 
+}
+
+void Patrol::update(float deltaTime, const std::vector<Walls>& walls, const std::vector<Door>& doors) {
+    Vector2f movement = calculatePatrolMovement();
+    Vector2f newPosition = this->position + movement * deltaTime;
+
+    if (!checkCollisionWithWalls(walls) && !checkCollisionWithDoors(doors)) {
+        this->position = newPosition;
+    }
 }
 

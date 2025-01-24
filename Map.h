@@ -4,28 +4,50 @@
 #include <fstream>
 #include <vector>
 
-#include "Walls.h"
-#include "Door.h"
-#include "Floor.h"
-
 using namespace std;
 using namespace sf;
 
-class Map{  //: public Walls, public Floor, public Door {
+class Walls {
 public:
-	ifstream mapfile;
-	Texture wall_t;
-	Texture floor_t;
-	Texture door_t;
-	vector<RectangleShape*> walls;
-	vector<RectangleShape*> floors;
-	vector<RectangleShape*> doors;
+    int x, y;
+    int sizex, sizey;
+    Texture wall_t;
+    RectangleShape wall_rect;
 
-	Map();
-	void draw(RenderWindow& window);
-
-
-
-
+    Walls(int x, int y, int sx, int sy);
+    void draw(RenderWindow& window);
 };
 
+class Floor {
+public:
+    int x, y;
+    int sizex, sizey;
+    Texture floor_t;
+    RectangleShape floor_rect;
+
+    Floor(int x, int y, int sx, int sy);
+    void draw(RenderWindow& window);
+};
+
+class Door {
+public:
+    int x, y;
+    int sizex, sizey;
+    Texture door_t;
+    RectangleShape door_rect;
+
+    Door(int x, int y, int sx, int sy);
+    void draw(RenderWindow& window);
+    void opendoor();
+};
+
+class Map {
+public:
+    ifstream mapfile;
+    vector<Walls*> walls;
+    vector<Floor*> floors;
+    vector<Door*> doors;
+
+    Map();
+    void draw(RenderWindow& window);
+};

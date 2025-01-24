@@ -8,6 +8,7 @@
 class Patrol : public Enemy {
 public:
     sf::RectangleShape patrolShape;
+    Vector2f position;
     float speed;
     int posX, posY;
     int currentPointIndex;
@@ -15,10 +16,19 @@ public:
 
     Patrol(int startX, int startY, float startSpeed);
     void search();
-    void update(float deltaTime) override;
+    void update(float deltaTime, const std::vector<Walls>& walls, const std::vector<Door>& doors) override;
+    Vector2f calculatePatrolMovement(); 
+    bool checkCollision(const Walls& wall) const;
+    bool checkCollision(const Door& door) const;
+    bool checkCollisionWithWalls(const std::vector<Walls>& walls) const;
+    bool checkCollisionWithDoors(const std::vector<Door>& doors) const;
+
     void draw(sf::RenderWindow& window) override;
     bool checkCollisionWithPatrol(const Player& player);
     sf::Vector2f getPosition() const;
+
+    FloatRect getGlobalBounds() const;
+  
 };
 
 #endif

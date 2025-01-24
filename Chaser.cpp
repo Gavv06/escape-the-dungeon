@@ -41,13 +41,44 @@ bool Chaser::checkCollisionWithChaser(const Player& player) {
 }
 
 
-
-
-
-void Chaser::update(float deltaTime) {
-    std::cout << "Chaser is hunting..." << std::endl;
-}
-
 void Chaser::draw(RenderWindow& window) {
     window.draw(chaserShape);
 }
+
+
+FloatRect Chaser::getGlobalBounds() const {
+    return chaserShape.getGlobalBounds();
+}
+
+bool Chaser::checkCollisionWithWalls(const std::vector<Walls>& walls) const {
+    for (const Walls& wall : walls) {
+        if (checkCollision(wall)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool Chaser::checkCollisionWithDoors(const std::vector<Door>& doors) const {
+    for (const Door& door : doors) {
+        if (checkCollision(door)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool Chaser::checkCollision(const Walls& wall) const {
+    return getGlobalBounds().intersects(wall.wall_rect.getGlobalBounds());
+}
+
+bool Chaser::checkCollision(const Door& door) const {
+    return getGlobalBounds().intersects(door.door_rect.getGlobalBounds());
+}
+void Chaser::update(float deltaTime, const std::vector<Walls>& walls, const std::vector<Door>& doors) {
+    Vector2f movement = calculateMovementTowardsPlayer();
+    Vector2f newPosition = this->position + movement * deltaTime;
+
+    if (!checkCollisionWithWalls(walls) && !checkCollisionWithDoors(doors)) {
+        this->position = newPosition;
+    }

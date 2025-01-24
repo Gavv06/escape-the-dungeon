@@ -51,15 +51,6 @@ void Player::handleinput() {
 
 }
 
-
-void Player::update(float deltaTime) {
-    if (speedBoosted && tempSpeedClock.getElapsedTime().asSeconds() > 5.0f) {
-        setSpeed(getSpeed() / 1.5f);
-        speedBoosted = false;
-        cout << "Effet de vitesse terminé, retour à la vitesse normale." << endl;
-    };
-}
-
 void Player::draw(RenderWindow& window) {
     window.draw(playerShape);
 }
@@ -71,3 +62,54 @@ FloatRect Player::getGlobalBounds() const {
     return playerShape.getGlobalBounds();
 }
 
+bool Player::checkCollision(const Walls& wall) const {
+    return getGlobalBounds().intersects(wall.wall_rect.getGlobalBounds());
+}
+
+bool Player::checkCollision(const Door& door) const {
+    return getGlobalBounds().intersects(door.door_rect.getGlobalBounds());
+}
+
+void Player::update(float deltaTime, const std::vector<Walls>& walls, const std::vector<Door>& doors) {
+    if (speedBoosted && tempSpeedClock.getElapsedTime().asSeconds() > 5.0f) {
+        setSpeed(getSpeed() / 1.5f);
+        speedBoosted = false;
+        std::cout << "Effet de vitesse terminé, retour à la vitesse normale." << std::endl;
+    }
+
+    Vector2f newPosition = this->getPosition();
+
+    if (checkCollisionWithWalls(walls)) {
+        std::cout << "Collision avec un mur, le joueur ne peut pas se déplacer." << std::endl;
+    }
+
+    if (checkCollisionWithDoors(doors)) {
+        std::cout << "Collision avec une porte, le joueur ne peut pas se déplacer." << std::endl;
+    }
+}
+
+bool Player::checkCollisionWithWalls(const std::vector<Walls>& walls) const {
+    for (const Walls& wall : walls) {
+        if (checkCollision(wall)) {
+            return true; 
+        }
+    }
+    return false;
+}
+
+bool Player::checkCollisionWithDoors(const std::vector<Door>& doors) const {
+    for (const Door& door : doors) {
+        if (checkCollision(door)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool Player::checkCollision(const Walls& wall) const {
+    return getGlobalBounds().intersects(wall.wall_rect.getGlobalBounds());
+}
+
+bool Player::checkCollision(const Door& door) const {
+    return getGlobalBounds().intersects(door.door_rect.getGlobalBounds());
+}

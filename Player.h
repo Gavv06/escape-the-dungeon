@@ -1,6 +1,7 @@
 #pragma once
 #include "entity.h"
 
+
 class Player: public entity {
 public:
 	int posX, posY;
@@ -19,8 +20,14 @@ public:
 	Vector2f getPosition() const;
 	void handleinput();
 	void draw(RenderWindow& window) override;
-	void update(float deltaTime) override;
+	void update(float deltaTime, const std::vector<Walls>& walls, const std::vector<Door>& doors) override;
 	FloatRect getGlobalBounds() const;
+
+	bool checkCollision(const Walls& wall) const;
+	bool checkCollision(const Door& door) const;
+	bool checkCollisionWithWalls(const std::vector<Walls>& walls) const;
+	bool checkCollisionWithDoors(const std::vector<Door>& doors) const;
+
 
 private:
 	Clock tempSpeedClock;

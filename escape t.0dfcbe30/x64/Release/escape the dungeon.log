@@ -1,0 +1,686 @@
+﻿  Chaser.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(32,14): error C2535: 'sf::Vector2f Chaser::getPosition(void) const' : fonction membre déjà définie ou déclarée
+  (compiler le fichier source 'Chaser.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(25,18):
+      voir la déclaration de 'Chaser::getPosition'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(21,10): error C3668: 'Chaser::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Chaser.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.cpp(37,20): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.cpp(78,103): error C1075: '{' : jeton correspondant introuvable
+  Enemy.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Enemy.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Enemy.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Enemy.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Enemy.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+  entity.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'entity.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'entity.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'entity.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'entity.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'entity.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'entity.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+  escape the dungeon.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,7): error C2253: 'Enemy::update' : spécificateur pure ou spécificateur de substitution abstrait uniquement autorisé sur une fonction virtuelle
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(32,14): error C2535: 'sf::Vector2f Chaser::getPosition(void) const' : fonction membre déjà définie ou déclarée
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(25,18):
+      voir la déclaration de 'Chaser::getPosition'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(21,10): error C3668: 'Chaser::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(19,10): error C3668: 'Patrol::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'escape%20the%20dungeon.cpp')
+  
+  Game.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Game.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Game.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,7): error C2253: 'Enemy::update' : spécificateur pure ou spécificateur de substitution abstrait uniquement autorisé sur une fonction virtuelle
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(32,14): error C2535: 'sf::Vector2f Chaser::getPosition(void) const' : fonction membre déjà définie ou déclarée
+  (compiler le fichier source 'Game.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(25,18):
+      voir la déclaration de 'Chaser::getPosition'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(21,10): error C3668: 'Chaser::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(19,10): error C3668: 'Patrol::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Game.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Game.cpp(101,21): error C2660: 'Player::update' : la fonction ne prend pas 1 arguments
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7):
+      voir la déclaration de 'Player::update'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Game.cpp(101,21):
+      lors de la tentative de mise en correspondance de la liste des arguments '(float)'
+  
+  Interactable.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Interactable.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Interactable.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Interactable.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Interactable.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Interactable.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Interactable.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Interactable.cpp')
+  
+  Key.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Key.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Key.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Key.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Key.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Key.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Key.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Key.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Key.cpp')
+  
+  Manager.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Manager.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Manager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Manager.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Manager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,7): error C2253: 'Enemy::update' : spécificateur pure ou spécificateur de substitution abstrait uniquement autorisé sur une fonction virtuelle
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(32,14): error C2535: 'sf::Vector2f Chaser::getPosition(void) const' : fonction membre déjà définie ou déclarée
+  (compiler le fichier source 'Manager.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(25,18):
+      voir la déclaration de 'Chaser::getPosition'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(21,10): error C3668: 'Chaser::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(19,10): error C3668: 'Patrol::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Manager.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,23): error C2259: 'Player' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(5,7):
+      voir la déclaration de 'Player'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,23):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,23):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,29): error C2259: 'Player' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(5,7):
+      voir la déclaration de 'Player'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,29):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(12,29):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,23): error C2259: 'Chaser' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(8,7):
+      voir la déclaration de 'Chaser'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,23):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,23):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,29): error C2259: 'Chaser' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Chaser.h(8,7):
+      voir la déclaration de 'Chaser'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,29):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(18,29):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,23): error C2259: 'Patrol' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(8,7):
+      voir la déclaration de 'Patrol'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,23):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,23):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,29): error C2259: 'Patrol' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(8,7):
+      voir la déclaration de 'Patrol'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,29):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(27,29):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(39,38): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(46,38): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,23): error C2259: 'Potion' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Potion.h(11,7):
+      voir la déclaration de 'Potion'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,23):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,23):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,29): error C2259: 'Potion' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Potion.h(11,7):
+      voir la déclaration de 'Potion'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,29):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(50,29):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(58,11): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(60,11): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,19): error C2259: 'Key' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Key.h(8,7):
+      voir la déclaration de 'Key'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,19):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,19):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,22): error C2259: 'Key' : impossible d'instancier une classe abstraite
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Key.h(8,7):
+      voir la déclaration de 'Key'
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,22):
+      à cause des membres suivants :
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Manager.cpp(63,22):
+      'void entity::update(float,const std::vector &,const std::vector &)' : est abstrait
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,15):
+      voir la déclaration de 'entity::update'
+  
+  Map.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,39): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,39): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,39): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,39): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,39): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,32): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,32): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,32): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,32): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(4,32): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,39): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,39): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,39): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,39): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,39): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,36): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,36): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,36): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,36): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(5,36): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,40): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,40): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,40): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,40): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,40): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,33): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,33): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,33): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,33): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(18,33): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,40): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,40): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,40): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,40): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,40): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,37): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,37): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,37): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,37): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(19,37): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,39): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,39): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,39): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,39): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,39): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,32): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,32): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,32): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,32): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(32,32): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,39): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,39): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,39): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,39): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,39): warning C4244:         ]
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,36): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,36): warning C4244:         with
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,36): warning C4244:         [
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,36): warning C4244:             T=float
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Map.cpp(33,36): warning C4244:         ]
+  Objets.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Objets.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Objets.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Objets.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Objets.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Objets.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Objets.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Objets.cpp')
+  
+  Patrol.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,49):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,42): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,82):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Enemy.h(8,75): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Patrol.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.h(19,10): error C3668: 'Patrol::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Patrol.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Patrol.cpp(53,20): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+  Player.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Player.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Player.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Player.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Player.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Player.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(38,17): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(41,17): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(44,17): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(47,17): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(109,14): error C2084: la fonction 'bool Player::checkCollision(const Walls &) const' a déjà un corps
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(65,14):
+      voir la définition précédente de « Player::checkCollision »
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(113,14): error C2084: la fonction 'bool Player::checkCollision(const Door &) const' a déjà un corps
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.cpp(69,14):
+      voir la définition précédente de « Player::checkCollision »
+  
+  Potion.cpp
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57): error C2065: 'Walls' : identificateur non déclaré
+  (compiler le fichier source 'Potion.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2923: std::vector' : 'Walls' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Potion.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,57):
+      voir la déclaration de 'Walls'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,50): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Potion.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90): error C2065: 'Door' : identificateur non déclaré
+  (compiler le fichier source 'Potion.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2923: std::vector' : 'Door' n'est pas un argument de type modèle valide pour le paramètre '_Ty'.
+  (compiler le fichier source 'Potion.cpp')
+      C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,90):
+      voir la déclaration de 'Door'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\entity.h(9,83): error C2976: 'std::vector' : nombre d'arguments modèle insuffisant
+  (compiler le fichier source 'Potion.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      voir la déclaration de 'std::vector'
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\objets.h(6,7): error C3668: 'Objets::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Potion.cpp')
+  
+C:\Users\tsfeir\Documents\GitHub\escape-the-dungeon\Player.h(23,7): error C3668: 'Player::update' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source 'Potion.cpp')
+  
